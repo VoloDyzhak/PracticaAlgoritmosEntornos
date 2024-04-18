@@ -10,8 +10,15 @@ public class main {
 		 
 	        Algoritmos algoritmo  = new Algoritmos() {
 			};
+			
+			//LLAmando la funcionFibbonacci
 	        algoritmo.fibonacci(numero);
+	        
+	        //LLamando la finccion factorial
+	        
+	        algoritmo.factorial(numero);
 
 	}
 
 }
+ 
