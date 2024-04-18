@@ -18,6 +18,9 @@ public class main {
 	        
 	        algoritmo.factorial(numero);
 
+	        
+	        
+	        System.out.println(algoritmo.esPrimo(numero));
 	}
 
 }
