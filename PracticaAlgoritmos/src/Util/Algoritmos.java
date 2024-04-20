@@ -26,8 +26,9 @@ public abstract class Algoritmos {
 			a = b;
 			b = siguiente;
 		}
-
+		 System.out.println("Fibonacci  seciencia " + numero + " " + a + " " + b );
 	}
+		    
 
 	/**
 	 * 

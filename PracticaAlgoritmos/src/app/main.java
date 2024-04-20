@@ -18,8 +18,7 @@ public class main {
 		 * 
 		 */
 		int[] numeros = new int[10];
-		Algoritmos algoritmo = new Algoritmos() {
-		};
+		Algoritmos algoritmo = new Algoritmos() {};
 
 		/**
 		 * con un bucle for recorremos y rellenamos array con la ayuda de la clase
@@ -33,7 +32,7 @@ public class main {
 		 * bucle for para recorrer el array de numeros y llamar la funcion Fiboncci
 		 * 
 		 */
-		int[] resultadoFibonacci = new int[5];
+		
 		for (int i = 0; i < numeros.length; i++) {
 
 			algoritmo.fibonacci(numeros[i]);
